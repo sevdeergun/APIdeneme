@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="0dp"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:hint="Enter city name"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnGetWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCityName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="143dp"
+        android:text="Get Weather" />
+
+    <TextView
+        android:id="@+id/tvWeatherInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGetWeather"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="3dp"
+        android:hint="tvWeatherInfo"
+        android:padding="16dp"
+        android:textSize="18sp" />
+</RelativeLayout>
